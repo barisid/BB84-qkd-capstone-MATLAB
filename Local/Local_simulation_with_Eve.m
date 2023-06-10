@@ -63,6 +63,8 @@ while length(convertStringsToChars(Key)) < 8
                  % If the bases are not the same, then contine
                  % comparison 
                  bit_state = "wrong"
+                 fprintf("An Eavesdropper is DETECTED!")
+                 return
             end
         end
     end
